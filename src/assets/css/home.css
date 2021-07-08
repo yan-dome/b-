@@ -1,0 +1,48 @@
+.home .menu-list {
+  width: 180px;
+  position: fixed;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+.home .menu-list .ant-menu {
+  height: 100%;
+}
+.home .main-app {
+  margin-left: 180px;
+  transition: all 0.3s;
+}
+.home .main-app.menu-unfold {
+  margin-left: 80px;
+}
+.home .main-app .my-header {
+  height: 50px;
+  line-height: 50px;
+  border-bottom: 1px solid #ddd;
+  padding-left: 10px;
+  padding-right: 25px;
+}
+.home .breadcrumbs {
+  display: inline-block;
+  margin-left: 20px;
+}
+.home .uesr-info {
+  float: right;
+  cursor: pointer;
+  text-align: center;
+}
+.home .uesr-info li:not(:first-child) {
+  display: none;
+}
+.home .uesr-info li:not(:first-child):hover {
+  background-color: green;
+  color: #ddd;
+  font-weight: 700;
+}
+.home .uesr-info li {
+  padding: 0 20px;
+}
+.home .uesr-info:hover li {
+  color: #000;
+  display: block;
+}
